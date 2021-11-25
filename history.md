@@ -4,6 +4,7 @@
 ## https://github.com/Delawere13/wild_animals_del
 
 #### Ход работы
+* git clone https://github.com/smartiqaorg/geometric_lib
 * cd geometric_lib
 * git checkout develop
 * git checkout release
@@ -25,4 +26,7 @@
 * git log --all --pretty=oneline --graph
 * git checkout main 
 * git merge release --ff
-* git log --pretty=oneline --graph 
+* git log --pretty=oneline --graph
+* git add history.md
+* git commit -m "modified history.md"
+* git push -u origin main  
